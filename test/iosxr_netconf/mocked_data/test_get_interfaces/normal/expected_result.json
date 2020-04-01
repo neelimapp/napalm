@@ -1,0 +1,1640 @@
+{
+	"Bundle-Ether10": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:77:35:3C",
+		"mtu": 1514,
+		"speed": 0
+	},
+	"Bundle-Ether100": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:77:35:39",
+		"mtu": 1514,
+		"speed": 0
+	},
+	"Bundle-Ether100.10": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:77:35:39",
+		"mtu": 1518,
+		"speed": 0
+	},
+	"Bundle-Ether100.20": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:77:35:39",
+		"mtu": 1518,
+		"speed": 0
+	},
+	"Bundle-Ether100.30": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:77:35:39",
+		"mtu": 1518,
+		"speed": 0
+	},
+	"Bundle-Ether20": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:77:35:3B",
+		"mtu": 1514,
+		"speed": 0
+	},
+	"Bundle-Ether91": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:77:35:3A",
+		"mtu": 1514,
+		"speed": 0
+	},
+	"FortyGigE0/1/0/0/0": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:00",
+		"mtu": 1514,
+		"speed": 40000
+	},
+	"FortyGigE0/1/0/1/0": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:04",
+		"mtu": 1514,
+		"speed": 40000
+	},
+	"GigabitEthernet0/0/0/44": {
+		"description": "## Adj Testing ##",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E4",
+		"mtu": 1514,
+		"speed": 1000
+	},
+	"GigabitEthernet0/0/0/45": {
+		"description": "## xml testing ##",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E5",
+		"mtu": 1514,
+		"speed": 1000
+	},
+	"GigabitEthernet0/0/0/46": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E6",
+		"mtu": 1514,
+		"speed": 1000
+	},
+	"GigabitEthernet0/0/0/47": {
+		"description": "## BFD Testing ##",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E7",
+		"mtu": 1514,
+		"speed": 1000
+	},
+	"GigabitEthernet0/0/0/47.10": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E7",
+		"mtu": 1518,
+		"speed": 1000
+	},
+	"GigabitEthernet0/0/0/47.20": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E7",
+		"mtu": 1518,
+		"speed": 1000
+	},
+	"GigabitEthernet0/0/0/47.30": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E7",
+		"mtu": 1518,
+		"speed": 1000
+	},
+	"HundredGigE0/1/0/10": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:28",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/11": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:2C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/12": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:30",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/13": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:34",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/14": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:38",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/15": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:3C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/16": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:40",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/17": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:44",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/18": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:48",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/19": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:4C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/2": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:08",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/20": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:50",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/21": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:54",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/22": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:58",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/23": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:5C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/24": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:60",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/25": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:64",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/26": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:68",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/27": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:6C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/28": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:70",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/29": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:74",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/3": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:0C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/30": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:78",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/31": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:7C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/4": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:10",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/5": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:14",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/6": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:18",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/7": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:1C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/8": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:20",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/1/0/9": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:0D:08:24",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/0": {
+		"description": "## LoadBal Testing ##",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:18",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/1": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:19",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/10": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:22",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/11": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:23",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/2": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:1A",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/3": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:1B",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/4": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:1C",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/5": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:1D",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/6": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:1E",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/7": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:1F",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/8": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:20",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/2/0/9": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "78:BC:1A:8D:2F:21",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/0": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:A0",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/1": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:AA",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/2": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:B4",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/3": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:BE",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/4": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:C8",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/5": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:D2",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/6": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:DC",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"HundredGigE0/3/0/7": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "00:A7:42:4F:71:E6",
+		"mtu": 1514,
+		"speed": 100000
+	},
+	"Loopback0": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "",
+		"mtu": 1500,
+		"speed": 0
+	},
+	"Loopback42": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "",
+		"mtu": 1500,
+		"speed": 0
+	},
+	"MgmtEth0/RSP0/CPU0/0": {
+		"description": "## Test ##",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:07:6B:E0",
+		"mtu": 1514,
+		"speed": 1000
+	},
+	"MgmtEth0/RSP1/CPU0/0": {
+		"description": "## Eth111/1/12 ##",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "08:EC:F5:07:6C:60",
+		"mtu": 1514,
+		"speed": 1000
+	},
+	"Null0": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "",
+		"mtu": 1500,
+		"speed": 0
+	},
+	"TenGigE0/0/0/0": {
+		"description": "## ECMP Load Balancing ##",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:B8",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/1": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:B9",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/10": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C2",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/11": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C3",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/12": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C4",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/13": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C5",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/14": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C6",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/15": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C7",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/16": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C8",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17": {
+		"description": "## ECMP Load Balancing ##",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.1": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.10": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.100": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.11": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.12": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.13": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.14": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.15": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.16": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.17": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.18": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.19": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.2": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.20": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.200": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.21": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.22": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.23": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.24": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.25": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.26": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.27": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.28": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.29": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.3": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.30": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.300": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.31": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.32": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.33": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.34": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.35": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.36": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.37": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.38": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.39": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.4": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.40": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.41": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.42": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.43": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.44": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.45": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.46": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.47": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.48": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.49": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.5": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.50": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.51": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.52": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.53": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.54": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.55": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.56": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.57": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.58": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.59": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.6": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.60": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.61": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.62": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.63": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.64": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.7": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.8": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/17.9": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": true,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C9",
+		"mtu": 1518,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/18": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:CA",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/19": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:CB",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/2": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:BA",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/20": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:CC",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/21": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:CD",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/22": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:CE",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/23": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:CF",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/24": {
+		"description": "## Ten0/1/0/24 ##",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D0",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/25": {
+		"description": "## Ten0/1/0/25 ##",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D1",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/26": {
+		"description": "",
+		"is_enabled": true,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D2",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/27": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D3",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/28": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D4",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/29": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D5",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/3": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:BB",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/30": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D6",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/31": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D7",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/32": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D8",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/33": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:D9",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/34": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:DA",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/35": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:DB",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/36": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:DC",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/37": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:DD",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/38": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:DE",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/39": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:DF",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/4": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:BC",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/40": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E0",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/41": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E1",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/42": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E2",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/43": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:E3",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/5": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:BD",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/6": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:BE",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/7": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:BF",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/8": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C0",
+		"mtu": 1514,
+		"speed": 10000
+	},
+	"TenGigE0/0/0/9": {
+		"description": "",
+		"is_enabled": false,
+		"is_up": false,
+		"last_flapped": -1.0,
+		"mac_address": "6C:6C:D3:36:BE:C1",
+		"mtu": 1514,
+		"speed": 10000
+	}
+}
