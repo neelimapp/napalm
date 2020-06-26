@@ -120,6 +120,28 @@ class IOSXRNETCONFDriver(NetworkDriver):
         self._lock()
         return configuration
 
+    def _filter_config_tree(self, tree, module_set):
+        """Return filtered config etree based on YANG module set."""
+        if module_set == "XR-only":
+            for subtree in tree:
+                namespace = subtree.tag[1:].split("}")[0]
+                module_name = namespace.rsplit("/", 1)[1]
+                if (namespace.startswith("http://openconfig.net/") or
+                                module_name.startswith("Cisco-IOS-XR-um-")):
+                    tree.remove(subtree)
+        return tree
+
+    def _verify_config_module_set(self, tree, module_set):
+        """Return True if config etree satisfies YANG module set."""
+        if module_set == "XR-only":
+            for subtree in tree:
+                namespace = subtree.tag[1:].split("}")[0]
+                module_name = namespace.rsplit("/", 1)[1]
+                if (namespace.startswith("http://openconfig.net/") or
+                                module_name.startswith("Cisco-IOS-XR-um-")):
+                    return True
+        return False
+
     def is_alive(self):
         """Return flag with the state of the connection."""
         if self.device is None:
@@ -130,6 +152,9 @@ class IOSXRNETCONFDriver(NetworkDriver):
         """Open the candidate config and replace."""
         self.replace = True
         configuration = self._load_config(filename=filename, config=config)
+        parser = ETREE.XMLParser(remove_blank_text=True)
+        if self._verify_config_module_set(ETREE.XML(configuration, parser=parser)[0], "XR-only"):
+            raise ReplaceConfigException(C.INVALID_MODEL_REFERENCE)
         configuration = "<source>" + configuration + "</source>"
         try:
             self.device.copy_config(source=configuration, target="candidate")
@@ -143,6 +168,9 @@ class IOSXRNETCONFDriver(NetworkDriver):
         """Open the candidate config and merge."""
         self.replace = False
         configuration = self._load_config(filename=filename, config=config)
+        parser = ETREE.XMLParser(remove_blank_text=True)
+        if self._verify_config_module_set(ETREE.XML(configuration, parser=parser)[0], "XR-only"):
+            raise MergeConfigException(C.INVALID_MODEL_REFERENCE)
         try:
             self.device.edit_config(
                 config=configuration, error_option="rollback-on-error"
@@ -163,10 +191,10 @@ class IOSXRNETCONFDriver(NetworkDriver):
             # Remove rpc-reply and data tag then reformat XML before doing the diff
             parser = ETREE.XMLParser(remove_blank_text=True)
             run_conf = ETREE.tostring(
-                ETREE.XML(run_conf, parser=parser)[0], pretty_print=True
+                self._filter_config_tree(ETREE.XML(run_conf, parser=parser)[0], "XR-only"), pretty_print=True
             ).decode()
             can_conf = ETREE.tostring(
-                ETREE.XML(can_conf, parser=parser)[0], pretty_print=True
+                self._filter_config_tree(ETREE.XML(can_conf, parser=parser)[0], "XR-only"), pretty_print=True
             ).decode()
             for line in difflib.unified_diff(
                 run_conf.splitlines(1), can_conf.splitlines(1)
@@ -2984,14 +3012,15 @@ class IOSXRNETCONFDriver(NetworkDriver):
         config = {"startup": "", "running": "", "candidate": ""}
 
         if retrieve.lower() in ["running", "all"]:
-            config["running"] = str(self.device.get_config(source="running").xml)
+            config["running"] = self.device.get_config(source="running").xml
         if retrieve.lower() in ["candidate", "all"]:
-            config["candidate"] = str(self.device.get_config(source="candidate").xml)
+            config["candidate"] = self.device.get_config(source="candidate").xml
         parser = ETREE.XMLParser(remove_blank_text=True)
         # Validate XML config strings and remove rpc-reply tag
         for datastore in config:
             if config[datastore] != "":
                 config[datastore] = ETREE.tostring(
-                      ETREE.XML(config[datastore], parser=parser)[0], pretty_print=True,
+                      self._filter_config_tree(ETREE.XML(config[datastore],
+                                            parser=parser)[0], "XR-only"), pretty_print=True,
                       encoding='unicode')
         return config

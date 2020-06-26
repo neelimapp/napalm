@@ -404,3 +404,6 @@ ENV_SYS_MON_RPC_REQ_FILTER = """
 <system-monitoring xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-wdsysmon-fd-oper">
  <cpu-utilization/>
 </system-monitoring>"""
+
+# Exception Messages
+INVALID_MODEL_REFERENCE = "Unexpected YANG model reference in configuration"
