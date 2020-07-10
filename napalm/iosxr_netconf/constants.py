@@ -415,3 +415,6 @@ CLI_DIFF_RPC_REQ = """
 
 # possible encoding values for optional argument "config_encoding"
 CONFIG_ENCODINGS = ["cli", "xml"]
+
+# exception messages
+INVALID_ENCODING_MSG = f"config encoding must be one of {CONFIG_ENCODINGS}"

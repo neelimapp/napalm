@@ -72,7 +72,7 @@ class IOSXRNETCONFDriver(NetworkDriver):
         self.key_file = optional_args.get("key_file", None)
         self.config_encoding = optional_args.get("config_encoding", "cli")
         if self.config_encoding not in C.CONFIG_ENCODINGS:
-            raise ValueError(f"config encoding must be one of {C.CONFIG_ENCODINGS}")
+            raise ValueError(C.INVALID_ENCODING_MSG)
 
         self.platform = "iosxr"
         self.device = None
@@ -172,9 +172,7 @@ class IOSXRNETCONFDriver(NetworkDriver):
         """Compare candidate config with running."""
         diff = ""
         if encoding not in C.CLI_DIFF_RPC_REQ:
-            raise NotImplementedError(
-                f"config encoding must be one of {C.CONFIG_ENCODINGS}"
-            )
+            raise NotImplementedError(C.INVALID_ENCODING_MSG)
 
         if self.pending_changes:
             parser = ETREE.XMLParser(remove_blank_text=True)
@@ -3010,9 +3008,7 @@ class IOSXRNETCONFDriver(NetworkDriver):
         elif encoding == "xml":
             subtree_filter = None
         else:
-            raise NotImplementedError(
-                f"config encoding must be one of {C.CONFIG_ENCODINGS}"
-            )
+            raise NotImplementedError(C.INVALID_ENCODING_MSG)
 
         if retrieve.lower() in ["running", "all"]:
             config["running"] = str(
